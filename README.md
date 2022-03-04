@@ -15,7 +15,7 @@ The columns in this dataset are:
 **PetalWidthCm**\
 **Species**
 
-# This project intends to predict the optimal number of clusters and represent it visually
+# This project intends to create decision tree classifier and visualize it graphically
 
 ## Result Obtained
 
