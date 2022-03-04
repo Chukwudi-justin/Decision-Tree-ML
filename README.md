@@ -8,11 +8,11 @@ This project uses the Iris data set from TSF GRIP Tasks
 
 The columns in this dataset are:
 
-**Id**
-**SepalLengthCm**
-**SepalWidthCm**
-**PetalLengthCm**
-**PetalWidthCm**
+**Id**\
+**SepalLengthCm**\
+**SepalWidthCm**\
+**PetalLengthCm**\
+**PetalWidthCm**\
 **Species**
 
 # This project intends to predict the optimal number of clusters and represent it visually
