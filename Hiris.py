@@ -1,4 +1,9 @@
 #%%
+#THE SPARKS FOUNDATION #GRIPMARCH2022
+#AUTHOR: OBERE JUSTIN
+#TASK6: PREDICTION USING DECISION TREE ALGORITHM
+#LEVEL: INTERMEDIATE #DATA SCIENCE AND BUSINESS ANALYTICS
+#%%
 #Import libraries
 import numpy as np 
 import pandas as pd 
@@ -43,7 +48,7 @@ df = df.drop(['Species'], axis = 1)
 y = df['Target']
 x = df.drop('Target', axis = 1)
 # %%
-# Defining the decision tree algorithm
+# Define and fit the decision Tree Algorithm
 from sklearn.tree import DecisionTreeClassifier
 dtree=DecisionTreeClassifier()
 dtree.fit(x, y)
@@ -62,3 +67,5 @@ export_graphviz(dtree, out_file=dot_data, feature_names=x.columns,
 graph = pydotplus.graph_from_dot_data(dot_data.getvalue())  
 Image(graph.create_png())
 # %%
+#CONCLUSION: IF WE FEED ANY NEW DATA TO THIS CLASSIFIER
+#IT WILL PREDICT THE RIGHT CLASS ACCORDINGLY
